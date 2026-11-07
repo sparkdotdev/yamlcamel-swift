@@ -8,11 +8,11 @@ Copyright 2026, Spark Software Development, LLC.
 
 `YAMLDecoder` and `YAMLEncoder` work with your `Decodable` and `Encodable` types. For documents whose shape is decided at runtime, the untyped API exposes ordinary values and the `YAMLValue` tree without requiring an application model.
 
-The parser handles block and flow collections, quoted and block strings, anchors, aliases, tags and document streams. Parser and emitter limits cover sizes, nesting and the work needed to build or write a document; sorted keys are available when stable output matters.
+The parser targets the [YAML 1.2.2](https://yaml.org/spec/1.2.2/) core schema and handles block and flow collections, quoted and block strings, anchors, aliases, tags, and document streams. The Swift value model uses string keys for mappings. The test suite documents the remaining syntax differences. Parser and emitter limits cover sizes, nesting and the work needed to build or write a document. You can sort keys when stable output matters.
 
 Sequence readers can decode top-level block-sequence elements as they are requested or as byte chunks arrive. File and gzip sequence readers use the same approach, so a caller can process a large list without first building the entire result array.
 
-The `YAMLCamel` product depends on Foundation. `YAMLCamelGzip` adds system-zlib compression, and `YAMLCamelHTTP` adds YAML requests and responses over URLSession. File access, compression and transport have replaceable interfaces in the three products' source directories.
+The `YAMLCamel` parser and emitter use Foundation with no third-party package dependencies, so they can fit into an existing app without adding another package to resolve. `YAMLCamelGzip` adds system-zlib compression, and `YAMLCamelHTTP` adds YAML requests and responses over URLSession. File access, compression and transport have replaceable interfaces in the three products' source directories.
 
 ## Configuration
 

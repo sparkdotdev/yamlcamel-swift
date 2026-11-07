@@ -12,6 +12,7 @@ Do not submit credentials, private data, build output or material you cannot lic
 
 For an external contribution, include this completed block in the pull request, or with a contribution submitted by another route. Replace every placeholder and check the acknowledgement only for yourself or a grantor you are authorized to represent:
 
+```text
 <!-- contribution-agreement:start -->
 Contribution agreement: Spark Contribution Agreement 1.1.1
 - [ ] I have read and accept the Spark Contribution Agreement 1.1.1 in CONTRIBUTING.md, and I have the rights needed to submit this contribution under it.
@@ -21,6 +22,7 @@ Covered submission: REPLACE_WITH_PULL_REQUEST_OR_PATCH_AND_REVISION_SCOPE
 Preparation began: YYYY-MM-DD
 Third-party material: REPLACE_WITH_NONE_OR_SOURCE_AND_LICENCE_AND_RESTRICTIONS
 <!-- contribution-agreement:end -->
+```
 
 Identify the individual or legal entity granting the rights, your authority to act for it, the pull request or patch covered, and the date preparation began. Each contributor must acknowledge the agreement, or an authorized representative must identify the contributions and rights its acknowledgement covers. An added contributor needs the same coverage. Later revisions remain subject to the agreement and your rights confirmations; identify changes to the grantors or third-party material. Do not publish private employer paperwork or personal contact details in the pull request; arrange a private maintainer channel if evidence is needed.
 
@@ -28,6 +30,7 @@ Complete the third-party field with `none`, or identify the material, source, li
 
 Spark's first-party maintenance, for which Spark already holds the necessary rights, does not require a contribution licence to itself. Use the separate block below instead of a contributor acknowledgement. A trusted maintainer must verify the authorization and covered work; CI must not accept an outside contributor's self-declared maintenance claim as a substitute for the external grant. This records a rights basis, not agreement acceptance. Use only one block for a submission.
 
+```text
 <!-- contribution-maintenance:start -->
 Contribution basis: Spark first-party maintenance
 Rights holder: Spark Software Development, LLC.
@@ -35,6 +38,7 @@ Authorization: REPLACE_WITH_MAINTAINER_AUTHORIZATION_RECORD
 Covered submission: REPLACE_WITH_PULL_REQUEST_OR_PATCH_AND_REVISION_SCOPE
 Third-party material: REPLACE_WITH_NONE_OR_SOURCE_AND_LICENCE_AND_RESTRICTIONS
 <!-- contribution-maintenance:end -->
+```
 
 This repository may publish one source snapshot per release. An accepted change can be integrated in private development, then included in a release snapshot. In that case, the pull request is closed with a link to the released version rather than merged directly into the release branch. The closure record identifies the release tag or commit and the included contribution; contributor credit is retained in release notes or an included credits file using the contributor's chosen public name.
 
