@@ -1,0 +1,3 @@
+#! A zlib stream rather than a gzip one, which is what Content-Encoding deflate sometimes means.
+#!---
+eJxLtFIw5AIAA54A9w==

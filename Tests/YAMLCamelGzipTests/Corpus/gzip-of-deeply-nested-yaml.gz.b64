@@ -1,0 +1,3 @@
+#! A well formed gzip stream whose contents are nested past the parser's depth bound, so both bounds have to hold in turn.
+#!---
+H4sIAAAAAAAC/+3BMREAAAQAwF0KOVRxEui/i2H5/61sAAAA4N0AAAAA7+IA2nPAEkQfAAA=

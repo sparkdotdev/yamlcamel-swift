@@ -1,0 +1,7 @@
+# Third-party notices
+
+Project licensing does not replace the licences of dependencies or vendored material. Preserve the following notices in every source or binary distribution containing these components.
+
+- YAML-Test-Suite: [upstream notice](https://raw.githubusercontent.com/yaml/yaml-test-suite/main/License) and [bundled text](licenses/YAML-Test-Suite.txt).
+
+Generate a software bill of materials from the actual release image and package artifacts, including operating-system packages, runtime dependencies and installed Lua rocks. Source lockfiles do not enumerate the complete deployment image.

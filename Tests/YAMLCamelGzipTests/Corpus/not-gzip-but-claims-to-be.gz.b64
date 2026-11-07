@@ -1,0 +1,3 @@
+#! Plain YAML with the gzip magic number stuck on the front, which is what a server sending the wrong Content-Encoding produces.
+#!---
+H4thOiAxCmI6IDIK

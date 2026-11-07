@@ -1,0 +1,4 @@
+#! A second node with no document marker between them.
+#!---
+[1, 2]
+foo: bar

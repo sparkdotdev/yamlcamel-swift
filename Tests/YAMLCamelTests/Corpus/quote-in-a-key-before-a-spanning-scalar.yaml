@@ -1,0 +1,7 @@
+#! A quote inside a plain key, then a value that opens a quoted scalar carrying the next line.
+#! Counting every quote on the line cancels those two and splits the item where the value is still
+#! open. Found by the fuzz harness a byte away from quoted-scalar-spanning-a-dash-line.
+#!---
+- name': 'a
+- b'
+- name: c

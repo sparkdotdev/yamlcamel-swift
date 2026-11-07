@@ -1,0 +1,5 @@
+#! A double quoted scalar whose continuation begins with a dash at the sequence's own indentation. The streaming readers used to split here and cut the item in half.
+#!---
+- name: "a
+- b"
+- name: c

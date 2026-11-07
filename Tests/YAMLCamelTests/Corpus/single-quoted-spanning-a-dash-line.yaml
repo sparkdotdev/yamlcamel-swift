@@ -1,0 +1,5 @@
+#! The same shape through a single quoted scalar.
+#!---
+- name: 'a
+- b'
+- name: c

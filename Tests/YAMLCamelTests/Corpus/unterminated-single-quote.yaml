@@ -1,0 +1,3 @@
+#! A single quoted scalar that never closes.
+#!---
+a: 'unterminated

@@ -1,0 +1,3 @@
+#! An escape naming half a surrogate pair, which is not a unicode scalar value.
+#!---
+a: "\uD800"

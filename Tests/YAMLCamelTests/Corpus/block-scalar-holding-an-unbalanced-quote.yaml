@@ -1,0 +1,7 @@
+#! A block scalar whose content holds an unbalanced quote, which a splitter tracking quotes has to skip rather than read.
+#!---
+- name: a
+  body: |
+    he said "hello
+    and left
+- name: b

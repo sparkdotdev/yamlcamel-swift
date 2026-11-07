@@ -1,0 +1,6 @@
+#! A gzip stream holding a gzip stream holding a large body, so a caller that inflates twice is caught by the same bound.
+#!---
+H4sIAAAAAAAC/+3dIW4CURQFUDolhFS0IMAgGNU1YEhKSIoiQRRNWEBlNdM0VV0FAsECSG1xuMqC
+YwEoBIpmYGYZf85RV1958/N++6taykTpYf2ehST+/p83l3clAAAAIHDJ7uP2Jgtx+vc8GgMAAACh
+mz7cl/NR4Dxp9dQBAAAAwfvsdmr5C4Hj7LWsDgAAAAhe47R/yreATbqqv+gDAAAAgrd1MAAAAAAK
+xcEAAAAAKJZFtxNnW0DtmL71Iz8rAAAAUBA/w8fBb+UaogthsUlRfH8AAA==

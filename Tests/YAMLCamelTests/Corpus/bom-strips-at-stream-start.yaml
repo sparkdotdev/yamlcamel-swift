@@ -1,0 +1,3 @@
+#! A byte order mark opening the stream, which is the encoding mark rather than content and is stripped.
+#!---
+﻿a: 1

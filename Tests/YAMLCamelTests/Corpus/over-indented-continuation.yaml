@@ -1,0 +1,5 @@
+#! A line indented past the mapping it follows. The parser this replaced dropped it and everything after it without a word.
+#!---
+a: 1
+  b: 2
+c: 3

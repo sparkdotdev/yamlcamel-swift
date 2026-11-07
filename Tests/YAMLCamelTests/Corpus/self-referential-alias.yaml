@@ -1,0 +1,3 @@
+#! An alias inside the node that defines its own anchor, which cannot resolve.
+#!---
+a: &x [*x]

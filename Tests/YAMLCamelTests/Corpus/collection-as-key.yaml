@@ -1,0 +1,5 @@
+#! A sequence used as a mapping key, which has no representation in a String keyed mapping.
+#!---
+? - a
+  - b
+: value

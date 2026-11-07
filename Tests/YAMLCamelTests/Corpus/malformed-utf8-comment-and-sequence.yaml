@@ -1,0 +1,5 @@
+#! Invalid UTF-8 in a comment and an item must exercise strict byte rejection,
+#! not a whole/string comparison against replacement characters.
+#!---
+# invalid: ÿ
+- ÿ

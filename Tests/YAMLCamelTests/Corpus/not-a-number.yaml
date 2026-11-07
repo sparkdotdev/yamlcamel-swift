@@ -1,0 +1,7 @@
+#! A NaN, found by the fuzzer. It is never equal to itself, so a round trip check has to compare
+#! emitted text rather than values.
+#!---
+- .NAN
+- .nan
+- .inf
+- -.Inf

@@ -1,0 +1,6 @@
+#! An anchor from an earlier document, which does not carry across the boundary.
+#!---
+---
+a: &x 1
+---
+b: *x

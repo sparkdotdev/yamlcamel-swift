@@ -1,0 +1,5 @@
+#! A block scalar whose leading empty line holds more spaces than its first content line, which the spec makes an error.
+#!---
+a: |
+   
+  text

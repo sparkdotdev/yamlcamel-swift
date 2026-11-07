@@ -1,0 +1,4 @@
+#! A tab where indentation is expected.
+#!---
+a:
+	b: 1

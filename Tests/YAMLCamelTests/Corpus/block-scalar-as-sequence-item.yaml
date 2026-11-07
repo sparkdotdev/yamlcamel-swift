@@ -1,0 +1,4 @@
+#! A block scalar as a sequence item. The parser this replaced read the header line as the first line of content and returned "|\nhello\n".
+#!---
+- |
+  hello

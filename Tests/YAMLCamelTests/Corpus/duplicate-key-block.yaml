@@ -1,0 +1,4 @@
+#! A repeated key in a block mapping, which YAML 1.2.2 makes an error.
+#!---
+a: 1
+a: 2

@@ -1,0 +1,4 @@
+#! A block scalar as the whole document, which had the same header swallowing bug.
+#!---
+|
+  hello

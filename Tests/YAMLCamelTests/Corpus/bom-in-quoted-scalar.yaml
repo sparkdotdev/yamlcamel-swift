@@ -1,0 +1,3 @@
+#! A byte order mark as a whole scalar. Emitting it plain lost it on re-read, so the emitter quotes it now.
+#!---
+"﻿"

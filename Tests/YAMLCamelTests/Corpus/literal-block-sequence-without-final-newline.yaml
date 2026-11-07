@@ -1,0 +1,4 @@
+#! A streaming reader must not add a line break to a literal scalar at EOF.
+#!---
+- |
+  literal EOF

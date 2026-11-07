@@ -1,0 +1,5 @@
+#! An apostrophe in the middle of a plain scalar. Reading it as an opening quote takes the entry
+#! after it for a continuation, and the item that entry held is dropped rather than reported.
+#!---
+- name: don't
+- name: b

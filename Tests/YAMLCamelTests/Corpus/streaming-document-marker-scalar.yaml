@@ -1,0 +1,5 @@
+#! A scalar opened on the document marker must not fabricate streamed sequence entries.
+#!---
+--- |
+  - a
+  - b

@@ -1,0 +1,8 @@
+#! A byte order mark before the second document's '---' marker. l-document-prefix allows
+#! one before any document in a stream, not only the very first, so this has to be stripped
+#! here too rather than reading as content or breaking the '---' marker's column-zero check.
+#!---
+a: 1
+...
+﻿---
+b: 2

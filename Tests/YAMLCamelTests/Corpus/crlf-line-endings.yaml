@@ -1,0 +1,5 @@
+#! Windows line endings, which normalise to line feeds.
+#!---
+a: 1
+b: |
+  x

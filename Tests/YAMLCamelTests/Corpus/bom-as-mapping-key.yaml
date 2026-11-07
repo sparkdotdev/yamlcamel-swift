@@ -1,0 +1,3 @@
+#! A byte order mark as a mapping key, found by the round trip property.
+#!---
+"﻿": v

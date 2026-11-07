@@ -1,0 +1,6 @@
+#! A byte order mark starting a folded continuation line of a plain scalar at column zero. Only the
+#! very start of a document is a mark's own position; here it is ordinary content and has to survive
+#! rather than being read as though this line opened a new document.
+#!---
+hello
+﻿world

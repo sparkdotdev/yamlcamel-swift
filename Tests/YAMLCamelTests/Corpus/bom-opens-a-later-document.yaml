@@ -1,0 +1,8 @@
+#! A byte order mark opening the second document of a stream rather than the first. The 1.2.2 spec
+#! allows one at the start of any document, and it used to be stripped only at the very start of
+#! the whole stream, so this one used to become the first character of the second document's key.
+#!---
+---
+a: 1
+﻿---
+b: 2

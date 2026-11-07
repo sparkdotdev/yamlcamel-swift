@@ -1,0 +1,3 @@
+#! An alias naming an anchor that was never defined.
+#!---
+a: *nope

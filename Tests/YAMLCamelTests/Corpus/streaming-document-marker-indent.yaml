@@ -1,0 +1,7 @@
+#! A leading document marker must not consume an indented sequence as plain-scalar continuation.
+#!---
+#! A sequence alternating with a mapping costs t'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''   a: 1
+---
+         - a:
+                                              #!                                                           - a:
+            A    

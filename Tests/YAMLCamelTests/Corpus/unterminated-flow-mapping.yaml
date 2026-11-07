@@ -1,0 +1,3 @@
+#! A flow mapping that never closes.
+#!---
+a: {b: 1
